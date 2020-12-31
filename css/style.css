@@ -1,0 +1,131 @@
+header, footer,body {
+	width: 100%;
+	color: #fff;
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+
+
+.getoond {
+      display: block;
+}
+div {
+     display: none;
+}
+nav {
+    text-align:center;
+    padding-top:1em;
+    padding-bottom:1em;
+}
+a {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    padding-top:1em;
+    padding-left: 20px;
+    padding-right:20px;
+    font-size: 2em;
+    
+}
+footer {
+    text-align:center;
+    padding-top:1em;
+    padding-bottom:1em;    
+}
+h3 {
+        FONT-SIZE:1.3em;
+    font-family: 'Raleway', sans-serif;
+}
+
+main {
+    width:70%;
+    background-color:white;
+    margin:30px auto 30px auto;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+p {
+    color:black;
+    font-family:raleway;
+}
+H1 {
+    font-size: 5em;
+    font-family: Raleway;
+    text-align:center;
+    padding-top: 30px;
+    padding-bottom:20px;
+    font-weight:bold;
+}
+h2 {
+    text-align:center;
+    border: 1px solid grey;
+    color: black;
+    font-size: 1.2em;
+     font-family:raleway;
+    width: 50%;
+    margin:20px auto 30px auto;
+    padding: 10px;
+    line-height:1.5em;
+}
+
+.foto1, .foto3, .foto5 {
+     float: left;
+    margin: 5px 1% 5px 1%;
+}
+.foto2, .foto4 {
+    float: right;
+    margin: 5px 1% 5px 1%; 
+}
+#id {
+    height: 100%;
+}
+.foto6 {
+    margin-right:1%;
+}
+H4 {
+    padding-bottom:20px;
+    padding-top:20px;
+    font-size: 3.5em; 
+    color: black;
+    font-family: Raleway;
+   COLOR:darkcyan;
+    TEXT-ALIGN:center;
+}
+
